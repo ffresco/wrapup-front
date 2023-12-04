@@ -1,0 +1,23 @@
+@import '~tailwindcss/base';
+@import '~tailwindcss/components';
+@import '~tailwindcss/utilities';
+
+.activate-stepper-content {
+  display: block;
+}
+
+.notification-timeline-element-icon {
+  float: left;
+  display: inline;
+  position: relative;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08),
+    0 3px 0 4px rgba(0, 0, 0, 0.05);
+}
+
+.vertical-timeline-element-date {
+  color: rgba(4, 70, 128, 0.883);
+}
